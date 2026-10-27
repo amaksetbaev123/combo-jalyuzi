@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="kaa" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>«Combo» Jalyuzileri — Nókis | Óndiriwshiden sapa hám qolay baha</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols & FontAwesome -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#fffbeb',
+              100: '#fef3c7',
+              200: '#fde68a',
+              500: '#d97706',
+              600: '#b45309',
+              700: '#92400e',
+              800: '#78350f',
+              900: '#451a03',
+            },
+            slate: {
+              850: '#151e2e',
+              900: '#0f172a',
+              950: '#020617'
+            }
+          },
+          fontFamily: {
+            sans: ['"Source Sans 3"', 'sans-serif'],
+            heading: ['"Plus Jakarta Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- ================= TOP NOTIFICATION BAR ================= -->
+  <div class="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-slate-200 text-xs py-2 px-4 border-b border-slate-700/50">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500 text-slate-950 uppercase tracking-wide">Aksiya</span>
+        <span>Nókis qalası boyınsha <strong>ólshew, jetkeriw hám ornatıw 100% biypul!</strong></span>
+      </div>
+      <div class="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-4">
+        <a href="tel:+998997356006" class="hover:text-amber-400 transition flex items-center gap-1 font-medium">
+          <i class="fa-solid fa-phone text-amber-500 text-xs"></i> +998 (99) 735-60-06
+        </a>
+        <a href="tel:+998907356006" class="hover:text-amber-400 transition flex items-center gap-1 font-medium">
+          <i class="fa-solid fa-phone text-amber-500 text-xs"></i> +998 (90) 735-60-06
+        </a>
+        <span class="text-slate-500 hidden md:inline">|</span>
+        <span class="hidden md:flex items-center gap-1 text-slate-300">
+          <i class="fa-regular fa-clock text-amber-500"></i> Hár kúni: 08:00 - 20:00
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Brand Logo -->
+        <a href="#" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-amber-700 flex items-center justify-center text-white shadow-md shadow-amber-500/20 group-hover:scale-105 transition-transform">
+            <span class="material-symbols-outlined text-3xl">blinds</span>
+          </div>
+          <div>
+            <span class="font-heading font-extrabold text-2xl tracking-tight text-slate-900 block leading-tight">COMBO</span>
+            <span class="text-[11px] font-semibold tracking-widest uppercase text-amber-600 block">Jalyuzi Fabrikası</span>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <nav class="hidden lg:flex items-center gap-7 font-heading font-medium text-sm text-slate-600">
+          <a href="#hero" class="hover:text-amber-600 transition">Bas bet</a>
+          <a href="#products" class="hover:text-amber-600 transition">Ónimler</a>
+          <a href="#catalog" class="hover:text-amber-600 transition font-bold text-amber-600 flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-base">menu_book</span>
+            <span>Каталог</span>
+            <span class="px-1.5 py-0.2 rounded text-[10px] font-bold bg-amber-500 text-slate-950">2026</span>
+          </a>
+          <a href="#simulator" class="hover:text-amber-600 transition flex items-center gap-1.5">
+            <span>Combo Simulyator</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800">Interaktiv</span>
+          </a>
+          <a href="#calculator" class="hover:text-amber-600 transition">Kalkulyator</a>
+          <a href="#features" class="hover:text-amber-600 transition">Abzallıqlar</a>
+          <a href="#steps" class="hover:text-amber-600 transition">Qalay isleymiz?</a>
+          <a href="#contact" class="hover:text-amber-600 transition">Baylanıs</a>
+        </nav>
+
+        <!-- CTA & Quick Call -->
+        <div class="hidden sm:flex items-center gap-4">
+          <a href="#calculator" class="hidden xl:inline-flex items-center gap-1 text-slate-700 hover:text-amber-600 text-sm font-semibold">
+            <span class="material-symbols-outlined text-lg text-amber-500">calculate</span>
+            Bahanı esaplaw
+          </a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-heading font-semibold text-sm bg-gradient-to-r from-amber-500 to-amber-600 text-white shadow-lg shadow-amber-500/25 hover:from-amber-600 hover:to-amber-700 hover:shadow-xl hover:shadow-amber-500/35 transition-all transform hover:-translate-y-0.5">
+            <span class="material-symbols-outlined text-lg">calendar_month</span>
+            Biypul ólshew
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="lg:hidden flex items-center">
+          <button id="mobile-menu-btn" class="p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Menyu">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-3 shadow-lg">
+      <a href="#hero" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Bas bet</a>
+      <a href="#catalog" class="mobile-link block py-2 px-3 rounded-lg text-amber-600 font-bold bg-amber-50/80 border border-amber-200">📖 Толық Каталог 2026 (Маталар & Баҳалар)</a>
+      <a href="#products" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Ónimler túrleri</a>
+      <a href="#simulator" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Combo Simulyator</a>
+      <a href="#calculator" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Kalkulyator (Baha esaplaw)</a>
+      <a href="#features" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Biziń abzallıqlarımız</a>
+      <a href="#steps" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Buyırtpa beriw qádemleri</a>
+      <a href="#contact" class="mobile-link block py-2 px-3 rounded-lg text-slate-700 font-medium hover:bg-amber-50 hover:text-amber-600">Baylanıs hám mánzil</a>
+      <div class="pt-3">
+        <a href="#contact" class="mobile-link w-full flex items-center justify-center gap-2 py-3 rounded-xl font-heading font-semibold text-white bg-amber-600 shadow-md">
+          <span class="material-symbols-outlined text-lg">call</span>
+          Biypul ólshewge buyırtpa beriw
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section id="hero" class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white py-20 lg:py-28">
+      <!-- Background subtle glow & grid -->
+      <div class="absolute inset-0 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:24px_24px] opacity-10"></div>
+      <div class="absolute -top-40 -right-40 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Hero Text -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs sm:text-sm font-semibold tracking-wide">
+              <span class="material-symbols-outlined text-sm">verified</span>
+              Óndiriwshiden tikkeley — Dáldalshısız arzan baha
+            </div>
+
+            <h1 class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-5xl tracking-tight leading-tight text-white">
+              Úyińizge hám ofisińizge kórkemlik baǵıshlań: <br class="hidden sm:inline">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-200 to-amber-500">
+                «Combo» jalyuzileri menen!
+              </span>
+            </h1>
+
+            <p class="text-slate-300 text-base sm:text-lg lg:text-xl max-w-2xl leading-relaxed">
+              Túpnusqa materiallar, zamanagóy dizayn hám mukammal quwat. «Combo» – óndiriwshiden tikkeley sizdiń jaylarıńız ushın arnalǵan eksklyuziv jalyuzi hám rolletler.
+            </p>
+
+            <!-- Action buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+              <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-heading font-bold text-base bg-amber-500 hover:bg-amber-600 text-slate-950 shadow-xl shadow-amber-500/25 hover:shadow-amber-500/40 transform hover:-translate-y-0.5 transition-all">
+                <span class="material-symbols-outlined text-2xl">call</span>
+                Biypul ólshewge shaqırıw
+              </a>
+              <a href="#catalog" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-xl font-heading font-semibold text-base bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/40 backdrop-blur-md transition-all">
+                <span class="material-symbols-outlined text-xl">menu_book</span>
+                Каталогты көриў
+              </a>
+              <a href="#calculator" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl font-heading font-semibold text-base bg-white/10 hover:bg-white/20 text-white border border-white/15 backdrop-blur-md transition-all">
+                <span class="material-symbols-outlined text-xl">calculate</span>
+                Есаплаў
+              </a>
+            </div>
+
+            <!-- Guarantee micro-badges -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-slate-800 text-left">
+              <div class="p-3 rounded-lg bg-slate-800/40 border border-slate-700/40">
+                <div class="text-2xl font-heading font-bold text-amber-400">100%</div>
+                <div class="text-xs text-slate-400">Óz óndirisimiz</div>
+              </div>
+              <div class="p-3 rounded-lg bg-slate-800/40 border border-slate-700/40">
+                <div class="text-2xl font-heading font-bold text-amber-400">24-48 s.</div>
+                <div class="text-xs text-slate-400">Tayarlaw múddeti</div>
+              </div>
+              <div class="p-3 rounded-lg bg-slate-800/40 border border-slate-700/40">
+                <div class="text-2xl font-heading font-bold text-amber-400">1 Jıl</div>
+                <div class="text-xs text-slate-400">Kepillik (Garantiya)</div>
+              </div>
+              <div class="p-3 rounded-lg bg-slate-800/40 border border-slate-700/40">
+                <div class="text-2xl font-heading font-bold text-amber-400">0 sum</div>
+                <div class="text-xs text-slate-400">Ólshew & Ornatıw</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image & Interactive Card -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800/80 group">
+                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1000&auto=format&fit=crop" 
+                     alt="Combo Jalyuzi Nókis" 
+                     class="w-full h-[440px] object-cover group-hover:scale-105 transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent"></div>
+                
+                <!-- Floating Card overlay -->
+                <div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-slate-900/90 backdrop-blur-md border border-slate-700/60 text-white">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="text-xs text-amber-400 font-semibold uppercase tracking-wider">Top tańlaw</div>
+                      <div class="font-heading font-bold text-lg">Combo Day & Night Jalyuzi</div>
+                      <div class="text-xs text-slate-300">Quyash jaqtılıǵın qolaylı basqarıw</div>
+                    </div>
+                    <div class="text-right">
+                      <div class="text-xs text-slate-400">kv.m baslap</div>
+                      <div class="text-amber-400 font-heading font-bold text-xl">130 000 sum</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating decorative pill -->
+              <div class="absolute -top-4 -left-4 bg-amber-500 text-slate-950 font-bold text-xs px-4 py-2 rounded-full shadow-lg flex items-center gap-1.5 animate-bounce">
+                <span class="material-symbols-outlined text-sm">local_shipping</span>
+                Nókiste biypul jetkeriw!
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= INTERACTIVE ZEBRA DAY/NIGHT SIMULATOR ================= -->
+    <section id="simulator" class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-amber-600 font-heading font-bold text-xs uppercase tracking-widest bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+            Kórkem Vizualizator
+          </span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-3">
+            «Combo» (Kún hám Tún) Qalay Isleytuǵının Sınap Kóriń
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-2">
+            Slayderdi tartıp kóriń: polosalardıń qozǵalıwı arqalı бөлмеге түсетін жарықты қалай қалағаныңызша басқара алатыныңызды көре аласыз.
+          </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto bg-slate-900 text-white rounded-3xl p-6 sm:p-10 shadow-2xl border border-slate-800">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+            
+            <!-- Blind Simulation Window Canvas -->
+            <div class="md:col-span-7">
+              <div class="relative w-full h-80 rounded-2xl overflow-hidden border-4 border-slate-700 bg-slate-800 shadow-inner flex flex-col justify-between">
+                <!-- Outside View through window -->
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop');"></div>
+                
+                <!-- Room ambient lighting overlay that changes with slider -->
+                <div id="room-ambient" class="absolute inset-0 bg-slate-950/20 transition-opacity duration-300"></div>
+
+                <!-- Blind Cassette top -->
+                <div class="relative z-20 h-8 bg-gradient-to-b from-slate-200 to-slate-400 border-b border-slate-400 shadow-md flex items-center justify-center">
+                  <div class="text-[10px] font-bold text-slate-700 uppercase tracking-widest">COMBO BLINDS CASSETTE</div>
+                </div>
+
+                <!-- Zebra Stripes Container -->
+                <div class="relative z-10 flex-1 overflow-hidden">
+                  <!-- Fixed layer of stripes -->
+                  <div class="absolute inset-0 flex flex-col justify-between">
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                    <div class="h-8 bg-amber-950/80 backdrop-blur-[1px] border-b border-amber-900/40"></div>
+                  </div>
+
+                  <!-- Dynamic movable sliding stripes layer -->
+                  <div id="sliding-stripes" class="absolute inset-0 flex flex-col justify-between transition-transform duration-75">
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                    <div class="h-8 bg-amber-950/85 backdrop-blur-[2px]"></div>
+                  </div>
+                </div>
+
+                <!-- Bottom weight bar -->
+                <div class="relative z-20 h-5 bg-gradient-to-b from-slate-300 to-slate-400 border-t border-slate-500 shadow-md"></div>
+              </div>
+            </div>
+
+            <!-- Simulator Controls & Info -->
+            <div class="md:col-span-5 space-y-6">
+              <div>
+                <span class="text-xs uppercase text-amber-400 font-bold tracking-wider">Интерактив басқарыў</span>
+                <h3 class="font-heading font-bold text-2xl text-white mt-1">Режим: <span id="simulator-mode-label" class="text-amber-400">Күн (Day Light)</span></h3>
+                <p class="text-slate-400 text-sm mt-2" id="simulator-mode-desc">
+                  Жарық толық өтүүде: бөлмеге табиғи күн нуры түсип, сыртқы көринис анық көринип турады.
+                </p>
+              </div>
+
+              <!-- Interactive Slider -->
+              <div class="space-y-3 bg-slate-800/80 p-5 rounded-2xl border border-slate-700/60">
+                <div class="flex justify-between text-xs font-semibold">
+                  <span class="flex items-center gap-1 text-amber-300"><i class="fa-solid fa-sun"></i> Күн (Ашық)</span>
+                  <span class="flex items-center gap-1 text-slate-300"><i class="fa-solid fa-moon"></i> Түн (Қараңғы)</span>
+                </div>
+                <input id="zebra-slider" type="range" min="0" max="100" value="0" 
+                       class="w-full h-3 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500">
+                <div class="text-center text-xs text-slate-400">
+                  Слайдерди солға/оңға тартып көриң
+                </div>
+              </div>
+
+              <div class="flex items-center gap-3 pt-2">
+                <button onclick="setZebraPreset(0)" class="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 transition">
+                  ☀️ Күн режими
+                </button>
+                <button onclick="setZebraPreset(50)" class="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+                  ⛅ Жартылай жарық
+                </button>
+                <button onclick="setZebraPreset(100)" class="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+                  🌙 Түн (Blackout)
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= PRODUCTS SECTION ================= -->
+    <section id="products" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-amber-600 font-heading font-bold text-xs uppercase tracking-widest bg-amber-100/60 px-3 py-1 rounded-full border border-amber-200">
+            Biziń Assortiment
+          </span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-3">
+            Ҳәр Қандай Талғам Ушын Сәнли Жалюзилер
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-2">
+            Европа ҳәм Түркияның сапалы маталарынан ҳәр бир терезеге арнайы өлшемде тигип, қысқа мүддетте орнатып беремиз.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          <!-- Product Card 1: Combo -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col group">
+            <div class="relative h-64 overflow-hidden bg-slate-900">
+              <img src="images/combo-sample.jpg" 
+                   alt="Combo jalyuzi" 
+                   class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full shadow">ХИТ САЎДА</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="font-heading font-bold text-xl text-slate-900">Combo (Kún & Tún)</h3>
+                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                  Еки қабатлы полосалы мата. Жарықты қалаған дәрежеде басқарыў мүмкиншилиги. Текстуралы сұр-гранит фактура.
+                </p>
+                <div class="mt-3 text-xs text-slate-500 space-y-1">
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Шаң тартпайтуғын мата</div>
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> 150+ түрли рең ҳәм фактура</div>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                <div>
+                  <div class="text-[11px] text-slate-400">Баҳасы kv.m:</div>
+                  <div class="text-amber-600 font-heading font-bold text-lg">130 000 сум-нан</div>
+                </div>
+                <button onclick="prefillCalculator('combo')" class="p-2.5 rounded-xl bg-amber-50 text-amber-600 hover:bg-amber-500 hover:text-white transition shadow-sm" title="Есаплаў">
+                  <span class="material-symbols-outlined text-xl">calculate</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 2: Rollet -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col group">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef9?q=80&w=800&auto=format&fit=crop" 
+                   alt="Rollet jalyuzi" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-slate-900 text-white text-xs font-bold px-3 py-1 rounded-full shadow">МИНИМАЛИЗМ</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="font-heading font-bold text-xl text-slate-900">Rolletler (Рулонные)</h3>
+                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                  Ықшам, заманагөй ҳәм орын алмайтуғын шешим. Жатын бөлме ҳәм залларға идеаль.
+                </p>
+                <div class="mt-3 text-xs text-slate-500 space-y-1">
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Blackout (100% қараңғылық)</div>
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Жыйнақы механизм</div>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                <div>
+                  <div class="text-[11px] text-slate-400">Баҳасы kv.m:</div>
+                  <div class="text-amber-600 font-heading font-bold text-lg">110 000 сум-нан</div>
+                </div>
+                <button onclick="prefillCalculator('rollet')" class="p-2.5 rounded-xl bg-amber-50 text-amber-600 hover:bg-amber-500 hover:text-white transition shadow-sm" title="Есаплаў">
+                  <span class="material-symbols-outlined text-xl">calculate</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 3: Dikiy -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col group">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" 
+                   alt="Dikiy jalyuzi" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">ТАБИҒИЙ ФАКТУРА</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="font-heading font-bold text-xl text-slate-900">Dikiy (Дикий) Жалюзи</h3>
+                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                  Өзине тән табиғи фактуралы, нәзик ҳәм беккем мата. Үй ҳәм мийманханаларға бөлекше сән береди.
+                </p>
+                <div class="mt-3 text-xs text-slate-500 space-y-1">
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Шаң өткермейтуғын табиғи мата</div>
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Төзимли ҳәм премиум көринис</div>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                <div>
+                  <div class="text-[11px] text-slate-400">Баҳасы kv.m:</div>
+                  <div class="text-amber-600 font-heading font-bold text-lg">130 000 сум-нан</div>
+                </div>
+                <button onclick="prefillCalculator('dikiy')" class="p-2.5 rounded-xl bg-amber-50 text-amber-600 hover:bg-amber-500 hover:text-white transition shadow-sm" title="Есаплаў">
+                  <span class="material-symbols-outlined text-xl">calculate</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Card 4: Plice -->
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200/80 flex flex-col group">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800&auto=format&fit=crop" 
+                   alt="Plice jalyuzi" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">ЗАМАНАГӨЙ</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+              <div>
+                <h3 class="font-heading font-bold text-xl text-slate-900">Plice (Плиссе) Жалюзи</h3>
+                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                  Гармошка тәризли бүкленетуғын сәнли дизайн. Қәлеген формадағы тәрезелер ушын ең қолайлы шешим.
+                </p>
+                <div class="mt-3 text-xs text-slate-500 space-y-1">
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Үстинен де, астынан да ашылады</div>
+                  <div class="flex items-center gap-1.5"><i class="fa-solid fa-check text-amber-500"></i> Нестандарт тәрезелер ушын идеаль</div>
+                </div>
+              </div>
+              <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                <div>
+                  <div class="text-[11px] text-slate-400">Баҳасы kv.m:</div>
+                  <div class="text-amber-600 font-heading font-bold text-lg">145 000 сум-нан</div>
+                </div>
+                <button onclick="prefillCalculator('plice')" class="p-2.5 rounded-xl bg-amber-50 text-amber-600 hover:bg-amber-500 hover:text-white transition shadow-sm" title="Есаплаў">
+                  <span class="material-symbols-outlined text-xl">calculate</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= FULL CATALOG SECTION ================= -->
+    <section id="catalog" class="py-20 bg-white border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-700 font-heading font-bold text-xs uppercase tracking-widest mb-3">
+            <span class="material-symbols-outlined text-sm text-amber-600">menu_book</span>
+            Толық Каталог 2026
+          </div>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900">
+            Заманагөй Маталар Ҳәм Модельлер Каталогы
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-2">
+            Түркия, Корея ҳәм Германияның 200-ден аслам сапалы маталары. Төмендеги категориялардан өзиңизге унаған модельди таңлап, толық мағлыўматын көриң!
+          </p>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2.5 mb-12">
+          <button type="button" onclick="filterCatalog('all', this)" class="catalog-filter-btn active px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-amber-500 text-slate-950 shadow-md transition-all">
+            Барлығы (8)
+          </button>
+          <button type="button" onclick="filterCatalog('combo', this)" class="catalog-filter-btn px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all">
+            Combo (Күн & Түн)
+          </button>
+          <button type="button" onclick="filterCatalog('rollet', this)" class="catalog-filter-btn px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all">
+            Rolletler (Рулонные)
+          </button>
+          <button type="button" onclick="filterCatalog('dikiy', this)" class="catalog-filter-btn px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all">
+            Dikiy
+          </button>
+          <button type="button" onclick="filterCatalog('plice', this)" class="catalog-filter-btn px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all">
+            Plice (Плиссе)
+          </button>
+          <button type="button" onclick="filterCatalog('blackout', this)" class="catalog-filter-btn px-5 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all">
+            🌙 Blackout 100%
+          </button>
+        </div>
+
+        <!-- Catalog Grid Items -->
+        <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
+          
+          <!-- Item 1: Combo Classic -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="combo">
+            <div class="relative h-64 overflow-hidden bg-slate-900">
+              <img src="images/combo-sample.jpg" 
+                   alt="Combo Elegance Гранит" 
+                   class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-amber-500 text-slate-950 text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ХИТ МОДЕЛЬ</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇹🇷 Түркия</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-amber-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                80% жарық тосыў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #CB-101</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 5.0 (142)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Combo Elegance (Гранит Сұр)
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Цехымыздағы нақ үлги: текстуралы гранит-сұр полосалы жалюзи. Асхана, зал ҳәм мийманханалар ушын таңланатуғын заманагөй модель.
+                </p>
+                <!-- Color dots preview -->
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#546e7a] border border-slate-300" title="Гранит Сұр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#f4ebd9] border border-slate-300" title="Крем"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#d7ccc8] border border-slate-300" title="Беж"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#5d4037] border border-slate-300" title="Шоколад"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+35 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">130 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('combo-classic')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Combo Elegance (Гранит Сұр)', '130 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Rollet Blackout -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="rollet blackout">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef9?q=80&w=800&auto=format&fit=crop" 
+                   alt="Rollet Blackout Deep Night" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-indigo-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">100% BLACKOUT</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇩🇪 Германия</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-emerald-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                100% қараңғылық
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #RL-202</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 4.9 (98)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Rollet Blackout Deep Night
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Жатын бөлмелер ушын күн нурын толық тосатуғын, тыныш уйқы кепилликлеўши рулон жалюзи.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#212121] border border-slate-300" title="Қара"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#424242] border border-slate-300" title="Графит"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#3e2723] border border-slate-300" title="Қоңыр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#1a237e] border border-slate-300" title="Көк"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+20 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">135 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('rollet-blackout')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Rollet Blackout Deep Night', '135 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Dikiy Silk -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="dikiy">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" 
+                   alt="Dikiy Silk Premium" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-emerald-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ТАБИҒИЙ ФАКТУРА</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇰🇷 Корея</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-amber-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                80% жарық тосыў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #DK-303</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 5.0 (86)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Dikiy Silk Premium
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Жипек фактуралы бай көринисли мата. Бөлмеге сәнли көринис береди, тез киринбейди.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#fdf5e6] border border-slate-300" title="Шампань"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#cfd8dc] border border-slate-300" title="Күмүс сұр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#d7ccc8] border border-slate-300" title="Бежевый"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+25 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">130 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('dikiy-silk')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Dikiy Silk Premium', '130 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Plice ZigZag -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="plice">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800&auto=format&fit=crop" 
+                   alt="Plice ZigZag Modern" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-purple-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ПЛИССЕ</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇹🇷 Түркия</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-amber-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                70% жарық өткериў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #PL-404</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 4.8 (64)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Plice ZigZag Modern
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Гармошка плиссе. Тәрезе рамасына туўры жабысып турады, үстинен де астынан да ашылады.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#ffffff] border border-slate-300" title="Қардай ақ"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#eceff1] border border-slate-300" title="Мәрмәр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#b0bec5] border border-slate-300" title="Сұр"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+18 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">145 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('plice-zigzag')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Plice ZigZag Modern', '145 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Combo Royal Gold -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="combo">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop" 
+                   alt="Combo Dimout Royal Gold" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-amber-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ПРЕМИУМ ЛЮРЕКС</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇹🇷 Түркия</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-amber-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                85% жарық тосыў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #CB-505</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 5.0 (110)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Combo Dimout Royal Gold
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Жылтыраған нәзик люрекс жипли полосалар. Мийман күтиў залы ҳәм ресторанларға бай сән береди.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#ffd700] border border-slate-300" title="Алтын"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#cd7f32] border border-slate-300" title="Бронза"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#d2b48c] border border-slate-300" title="Капучино"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+15 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">140 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('combo-royal')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Combo Dimout Royal Gold', '140 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6: Rollet SunScreen -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="rollet">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" 
+                   alt="Rollet SunScreen Pro" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-blue-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ОФИС & БИЗНЕС</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇰🇷 Корея</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-blue-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                65% жылыў қорғаў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #RL-606</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 4.9 (73)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Rollet SunScreen Pro
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Перфорациялы қорғаўшы мата. Иштен сырт анық көринеди, сырттан бөлме көринбейди ҳәм кондиционерди үнемлейди.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#757575] border border-slate-300" title="Сұр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#37474f] border border-slate-300" title="Антрацит"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#263238] border border-slate-300" title="Қара"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+12 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">125 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('rollet-sunscreen')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Rollet SunScreen Pro', '125 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 7: Dikiy Wood -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="dikiy">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=800&auto=format&fit=crop" 
+                   alt="Dikiy Wood Nature" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-amber-800 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ЭКО АҒАШ</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇪🇺 Европа</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-amber-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                85% жарық тосыў
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #DK-707</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 4.9 (52)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Dikiy Wood Nature
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Ағаш фактуралы табиғий мата. Ағаш мебеллер менен үйлесип, бөлмеге жылылық бағышлайды.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#8d6e63] border border-slate-300" title="Дуб"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#bcaaa4] border border-slate-300" title="Ашық ағаш"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#4e342e] border border-slate-300" title="Венге"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+16 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">138 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('dikiy-wood')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Dikiy Wood Nature', '138 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 8: Plice Thermo Blackout -->
+          <div class="catalog-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200/90 hover:border-amber-400 hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="plice blackout">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" 
+                   alt="Plice Thermo Blackout" 
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3 flex flex-col gap-1">
+                <span class="bg-indigo-700 text-white text-[10px] font-bold px-2.5 py-1 rounded-full shadow">ТЕРМО + BLACKOUT</span>
+                <span class="bg-slate-900/80 backdrop-blur-sm text-white text-[10px] font-semibold px-2 py-0.5 rounded-md">🇩🇪 Германия</span>
+              </div>
+              <span class="absolute bottom-3 right-3 bg-slate-950/80 text-emerald-400 text-xs font-bold px-2 py-1 rounded-lg backdrop-blur-sm">
+                100% қараңғы + термо
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                  <span>Артикул: #PL-808</span>
+                  <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 5.0 (47)</span>
+                </div>
+                <h3 class="font-heading font-bold text-lg text-slate-900 group-hover:text-amber-600 transition">
+                  Plice Thermo Blackout
+                </h3>
+                <p class="text-slate-600 text-xs mt-1 leading-relaxed">
+                  Соталы структуралы плиссе. Қыста суўықты, жазда ыссыны бөлмеге өткермейтуғын энергия тежеўши шешим.
+                </p>
+                <div class="mt-3 flex items-center gap-1.5">
+                  <span class="text-[11px] text-slate-400">Реңлер:</span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#fafafa] border border-slate-300" title="Қардай ақ"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#90a4ae] border border-slate-300" title="Сұр"></span>
+                  <span class="w-3.5 h-3.5 rounded-full bg-[#1e293b] border border-slate-300" title="Қойыў сұр"></span>
+                  <span class="text-[10px] text-slate-400 font-semibold">+14 рең</span>
+                </div>
+              </div>
+              <div class="pt-3 border-t border-slate-200/80 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs text-slate-400">1 кв.м баҳасы:</span>
+                  <span class="text-amber-600 font-heading font-extrabold text-base">160 000 сум</span>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <button type="button" onclick="openCatalogModal('plice-thermo')" class="py-2 px-2.5 rounded-xl border border-slate-300 hover:border-amber-500 text-slate-700 hover:text-amber-600 text-xs font-semibold text-center transition flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">visibility</span>
+                    Көриў
+                  </button>
+                  <button type="button" onclick="orderFromCatalog('Plice Thermo Blackout', '160 000 сум/кв.м')" class="py-2 px-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold text-center transition shadow-sm flex items-center justify-center gap-1">
+                    <span class="material-symbols-outlined text-base">shopping_cart</span>
+                    Буйыртпа
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Banner: Request Master with Catalog -->
+        <div class="mt-16 bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 rounded-3xl p-8 sm:p-12 text-white border border-slate-800 shadow-2xl relative overflow-hidden">
+          <div class="absolute -right-20 -top-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 text-center lg:text-left">
+            <div class="space-y-3 max-w-2xl">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-xs font-bold uppercase tracking-wider border border-amber-500/20">
+                <span class="material-symbols-outlined text-sm">local_shipping</span>
+                Нөкис бойынша 100% бийпул
+              </span>
+              <h3 class="font-heading font-extrabold text-2xl sm:text-3xl text-white">
+                Үйиңизге 200+ Мата Үлгилери Бар Каталогты Шақырың!
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Шеберимиз толық каталог ҳәм барлық мата түрлери менен үйге барып, бөлмеңизге сәйкес келетуғын реңди сайлап береди ҳәм бийпул өлшеп кетеди.
+              </p>
+            </div>
+            <div class="shrink-0 flex flex-col sm:flex-row items-center gap-4">
+              <a href="#contact" onclick="requestCatalogVisit()" class="px-8 py-4 rounded-xl font-heading font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-xl shadow-amber-500/25 transition-all flex items-center gap-2">
+                <span class="material-symbols-outlined">menu_book</span>
+                Каталог пенен шеберди шақырыў
+              </a>
+              <a href="tel:+998997356006" class="px-6 py-4 rounded-xl font-heading font-semibold text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 transition flex items-center gap-2">
+                <i class="fa-solid fa-phone text-amber-400"></i>
+                +998 (99) 735-60-06
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= PRICE CALCULATOR SECTION ================= -->
+    <section id="calculator" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+      <div class="absolute inset-0 bg-[radial-gradient(#d97706_1px,transparent_1px)] [background-size:24px_24px] opacity-10"></div>
+      
+      <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-amber-400 font-heading font-bold text-xs uppercase tracking-widest bg-amber-500/10 px-3.5 py-1 rounded-full border border-amber-500/30">
+            Интерактив Калькулятор
+          </span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">
+            Терезеңиздиң Өлшемине Қарай Баҳасын Есаплаң
+          </h2>
+          <p class="text-slate-400 text-base mt-2">
+            Терезеңиздиң ени ҳәм бийиклигин (см-де) киргизиң, жалюзи түрин таңлаң — нәтийже дәрриў шығады!
+          </p>
+        </div>
+
+        <div class="bg-slate-800/90 backdrop-blur-xl rounded-3xl p-6 sm:p-10 border border-slate-700/80 shadow-2xl">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <!-- Controls Form -->
+            <div class="lg:col-span-7 space-y-6">
+              
+              <!-- 1. Blind Type -->
+              <div>
+                <label class="block text-sm font-semibold text-slate-300 mb-2">1. Жалюзи түрин таңлаң:</label>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                  <button type="button" onclick="selectCalcType('combo', 130000)" class="calc-type-btn active p-3 rounded-xl border border-amber-500 bg-amber-500/10 text-amber-300 font-semibold text-xs flex flex-col items-center gap-1.5 transition">
+                    <span class="material-symbols-outlined text-2xl">roller_shades</span>
+                    <span>Combo</span>
+                  </button>
+                  <button type="button" onclick="selectCalcType('rollet', 110000)" class="calc-type-btn p-3 rounded-xl border border-slate-700 bg-slate-900/50 text-slate-300 hover:border-slate-500 font-semibold text-xs flex flex-col items-center gap-1.5 transition">
+                    <span class="material-symbols-outlined text-2xl">curtains</span>
+                    <span>Rollet</span>
+                  </button>
+                  <button type="button" onclick="selectCalcType('dikiy', 130000)" class="calc-type-btn p-3 rounded-xl border border-slate-700 bg-slate-900/50 text-slate-300 hover:border-slate-500 font-semibold text-xs flex flex-col items-center gap-1.5 transition">
+                    <span class="material-symbols-outlined text-2xl">texture</span>
+                    <span>Dikiy</span>
+                  </button>
+                  <button type="button" onclick="selectCalcType('plice', 145000)" class="calc-type-btn p-3 rounded-xl border border-slate-700 bg-slate-900/50 text-slate-300 hover:border-slate-500 font-semibold text-xs flex flex-col items-center gap-1.5 transition">
+                    <span class="material-symbols-outlined text-2xl">density_medium</span>
+                    <span>Plice</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- 2. Dimensions (Width & Height) -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="calc-width" class="block text-sm font-semibold text-slate-300 mb-1">
+                    Ени (см):
+                  </label>
+                  <div class="relative">
+                    <input type="number" id="calc-width" value="140" min="30" max="400" step="5"
+                           class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-lg font-bold focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+                    <span class="absolute right-4 top-3.5 text-slate-400 text-sm font-semibold">см</span>
+                  </div>
+                </div>
+                <div>
+                  <label for="calc-height" class="block text-sm font-semibold text-slate-300 mb-1">
+                    Бийиклиги (см):
+                  </label>
+                  <div class="relative">
+                    <input type="number" id="calc-height" value="160" min="30" max="400" step="5"
+                           class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-lg font-bold focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+                    <span class="absolute right-4 top-3.5 text-slate-400 text-sm font-semibold">см</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3. Quantity -->
+              <div>
+                <label class="block text-sm font-semibold text-slate-300 mb-2">Терезе саны (штук):</label>
+                <div class="flex items-center gap-3">
+                  <button type="button" onclick="adjustQty(-1)" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-700 text-white font-bold hover:bg-slate-700 flex items-center justify-center transition">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <input type="number" id="calc-qty" value="1" min="1" max="50" readonly
+                         class="w-16 bg-slate-900 border border-slate-700 rounded-xl py-2.5 text-center text-white text-lg font-bold focus:outline-none">
+                  <button type="button" onclick="adjustQty(1)" class="w-11 h-11 rounded-xl bg-slate-900 border border-slate-700 text-white font-bold hover:bg-slate-700 flex items-center justify-center transition">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                  <span class="text-xs text-slate-400 ml-2">Үй ямаса офистеги терезелер саны</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Calculation Output Card -->
+            <div class="lg:col-span-5 bg-gradient-to-b from-slate-900 to-slate-950 p-6 sm:p-8 rounded-2xl border border-amber-500/30 flex flex-col justify-between space-y-6">
+              <div>
+                <span class="text-xs uppercase font-bold text-amber-400 tracking-wider">Есапланған нәтийже</span>
+                <div class="mt-4 space-y-2.5 text-sm text-slate-300 border-b border-slate-800 pb-4">
+                  <div class="flex justify-between">
+                    <span>Таңланған түр:</span>
+                    <strong id="summary-type" class="text-white font-semibold">Combo</strong>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Жалпы майдан:</span>
+                    <strong id="summary-area" class="text-white font-semibold">2.24 кв.м</strong>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Терезе саны:</span>
+                    <strong id="summary-qty" class="text-white font-semibold">1 дана</strong>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Өлшеў ҳәм орнатыў:</span>
+                    <strong class="text-emerald-400 font-semibold">0 сум (Бийпул)</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="text-xs text-slate-400">Шөлкемлестирилген жәмлеме баҳа:</div>
+                <div id="calc-total" class="font-heading font-extrabold text-3xl sm:text-4xl text-amber-400 mt-1">
+                  268 800 сум
+                </div>
+                <div class="text-[11px] text-slate-400 mt-1">* Анық баҳа таңланған мата реңине ҳәм фактурасына қарай анықланады.</div>
+              </div>
+
+              <button onclick="applyCalculatedToOrder()" class="w-full py-4 rounded-xl font-heading font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined">shopping_cart</span>
+                Усы өлшемде буйыртпа бериў
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= WHY CHOOSE US ================= -->
+    <section id="features" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-amber-600 font-heading font-bold text-xs uppercase tracking-widest bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+            Исенимли Сервис
+          </span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-3">
+            Не Ушын 3,000-нан Аслам Шаңарақ «Combo»-ны Таңлады?
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-2">
+            Бизде ҳеш қандай аралық дәлдалшылар жоқ. Тиккелей өндиристен сатамыз ҳәм ҳәр бир өним сапасына жуўап беремиз.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-amber-400/50 hover:shadow-lg transition group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Өз Өндирисимиз</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Өзимиз тиккелей тигемиз ҳәм жыйнаймыз. Соның ушын базар баҳасынан 20-30% арзан сатыўды кепилликлеймиз.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-amber-400/50 hover:shadow-lg transition group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl">verified</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">1 Жыллық Кепиллик</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Барлық механизм ҳәм маталарға расмий 1 жыллық кепиллик талонын беремиз. Бузылса — бийпул оңлап беремиз.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-amber-400/50 hover:shadow-lg transition group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl">bolt</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">24-48 Саатта Тайын</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Өлшем алғаннан кейин 24-48 саат ишинде жалюзилерди таярлап, келисилген ўақытта үйге келтирип беремиз.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-amber-400/50 hover:shadow-lg transition group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-500 text-slate-950 flex items-center justify-center mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-3xl">handyman</span>
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Бийпул Орнатыў</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Сиз тек жалюзи ушын төлейсиз. Өлшеў, жеткерип бериў ҳәм профессионал орнатыў хызметлери толық бийпул!
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= 3 STEPS ORDER ================= -->
+    <section id="steps" class="py-20 bg-slate-50 border-t border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-amber-600 font-heading font-bold text-xs uppercase tracking-widest bg-amber-100/60 px-3 py-1 rounded-full border border-amber-200">
+            Әпиўайы процесс
+          </span>
+          <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-slate-900 mt-3">
+            Буйыртпа Бериўдиң 3 Аңсат Қәдеми
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg mt-2">
+            Сиз үйден шықпайсыз — барлық жумысты өзимиз атқарамыз!
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+          
+          <!-- Step 1 -->
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm relative text-center">
+            <div class="w-16 h-16 rounded-full bg-slate-900 text-amber-400 font-heading font-extrabold text-2xl flex items-center justify-center mx-auto mb-6 shadow-md">
+              1
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Заявка қалдырыў</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Сайттағы форма арқалы ямаса телефон арқалы бизге байланысасыз. Операторымыз сизге толық мәсләҳәт береди.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm relative text-center">
+            <div class="w-16 h-16 rounded-full bg-amber-500 text-slate-950 font-heading font-extrabold text-2xl flex items-center justify-center mx-auto mb-6 shadow-md">
+              2
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Бийпул өлшеў ҳәм каталог</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Шеберимиз керекли каталоглар ҳәм рең үлгилери менен үйге барып, терезе өлшемлерин ақысыз алып береди.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm relative text-center">
+            <div class="w-16 h-16 rounded-full bg-slate-900 text-amber-400 font-heading font-extrabold text-2xl flex items-center justify-center mx-auto mb-6 shadow-md">
+              3
+            </div>
+            <h3 class="font-heading font-bold text-xl text-slate-900 mb-2">Орнатыў ҳәм кепиллик</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              24-48 саатта таяр болған жалюзини шеберлеримиз тазалық пенен орнатып береди ҳәм кепиллик қағазы тапсырылады.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= ORDER & CONTACT SECTION ================= -->
+    <section id="contact" class="py-20 bg-slate-900 text-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Contact Info text -->
+          <div class="lg:col-span-5 space-y-8">
+            <div>
+              <span class="text-amber-400 font-heading font-bold text-xs uppercase tracking-widest bg-amber-500/10 px-3.5 py-1 rounded-full border border-amber-500/30">
+                Байланыс
+              </span>
+              <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">
+                Үйиңизди Жаңалау Ушын Биринши Қәдемди Таслаң!
+              </h2>
+              <p class="text-slate-300 text-base mt-3 leading-relaxed">
+                Шеберди бийпул өлшеўге шақырыў ушын форманы толтырың ямаса туўрыдан-туўры телефон арқалы қоңыраў етиң.
+              </p>
+            </div>
+
+            <div class="space-y-4">
+              <!-- Phone -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shrink-0">
+                  <span class="material-symbols-outlined text-2xl">call</span>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 uppercase tracking-wider">Телефон номерлери:</div>
+                  <div class="space-y-1">
+                    <a href="tel:+998997356006" class="text-lg font-heading font-bold text-white hover:text-amber-400 transition block">
+                      +998 (99) 735-60-06
+                    </a>
+                    <a href="tel:+998907356006" class="text-lg font-heading font-bold text-white hover:text-amber-400 transition block">
+                      +998 (90) 735-60-06
+                    </a>
+                  </div>
+                  <div class="text-xs text-slate-400 mt-1">Ҳәр күни 08:00 ден 20:00 ге шекем</div>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shrink-0">
+                  <span class="material-symbols-outlined text-2xl">location_on</span>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 uppercase tracking-wider">Мәнзилимиз:</div>
+                  <div class="text-base font-semibold text-white">ХОЖЕЛИ ГҮЗАРЫ, GOLDEN PALACE ТОЙХАНАСЫНЫҢ ТУЎРЫСЫ</div>
+                  <div class="text-xs text-slate-400">Xojeli gúzarı, Golden Palace toyxanasınıń tuwrısı</div>
+                </div>
+              </div>
+
+              <!-- Telegram -->
+              <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center shrink-0">
+                  <i class="fa-brands fa-telegram text-2xl"></i>
+                </div>
+                <div>
+                  <div class="text-xs text-slate-400 uppercase tracking-wider">Telegram аккаунтларымыз:</div>
+                  <div class="space-y-1">
+                    <a href="https://t.me/Jalyuzinukuscombon1" target="_blank" class="text-base font-semibold text-amber-400 hover:underline block">
+                      @Jalyuzinukuscombon1
+                    </a>
+                    <a href="https://t.me/jalyuzinukus" target="_blank" class="text-base font-semibold text-amber-400 hover:underline block">
+                      @jalyuzinukus
+                    </a>
+                  </div>
+                  <div class="text-xs text-slate-400 mt-1">Жаңа жумыслар фотосы ҳәм онлайн консультация</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Order Form -->
+          <div class="lg:col-span-7">
+            <div class="bg-white text-slate-900 rounded-3xl p-8 sm:p-10 shadow-2xl border border-slate-100">
+              <div class="mb-6">
+                <h3 class="font-heading font-extrabold text-2xl text-slate-900">Бийпул Өлшеўге Жазылыў</h3>
+                <p class="text-slate-500 text-sm mt-1">
+                  Мағлыўматларыңызды қалдырың, 10 минут ишинде сизге қоңыраў етемиз.
+                </p>
+              </div>
+
+              <form id="order-form" class="space-y-4" onsubmit="handleOrderSubmit(event)">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="client-name" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Аты-жөниңиз *
+                    </label>
+                    <input type="text" id="client-name" required placeholder="Мәселен: Азамат"
+                           class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 focus:bg-white focus:ring-1 focus:ring-amber-500 transition">
+                  </div>
+                  <div>
+                    <label for="client-phone" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Телефон номериңиз *
+                    </label>
+                    <input type="tel" id="client-phone" required placeholder="+998 (__) ___-__-__" value="+998 "
+                           class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 focus:bg-white focus:ring-1 focus:ring-amber-500 transition">
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="order-blind-type" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Қайсы жалюзи қызықтырады?
+                    </label>
+                    <select id="order-blind-type" 
+                            class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 focus:bg-white transition">
+                      <option value="Combo (Day & Night)">Combo (Күн & Түн)</option>
+                      <option value="Rollet (Рулонные)">Rolletler (Рулонные)</option>
+                      <option value="Dikiy (Дикий)">Dikiy (Дикий) жалюзи</option>
+                      <option value="Plice (Плиссе)">Plice (Плиссе) жалюзи</option>
+                      <option value="Әли таңламадым / Мәсләҳәт керек">Әли таңламадым / Мәсләҳәт керек</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="client-address" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Жайласыў (Район / Мәнзил)
+                    </label>
+                    <input type="text" id="client-address" placeholder="Мәселен: Хожели гүзары, Golden Palace қасында"
+                           class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 focus:bg-white transition">
+                  </div>
+                </div>
+
+                <div>
+                  <label for="order-notes" class="block text-xs font-bold text-slate-700 uppercase mb-1">
+                    Қосымша ескертпе ямаса өлшемлер:
+                  </label>
+                  <textarea id="order-notes" rows="3" placeholder="Мәселен: 3 дана терезе, зал ҳәм жатын бөлме ушын..."
+                            class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-slate-900 text-sm focus:outline-none focus:border-amber-500 focus:bg-white transition"></textarea>
+                </div>
+
+                <div class="pt-2">
+                  <button type="submit" id="submit-btn" class="w-full py-4 rounded-xl font-heading font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-xl shadow-amber-500/25 transition-all text-base flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined">send</span>
+                    Бийпул өлшеўге буйыртпа жибериў
+                  </button>
+                  <div class="text-center text-xs text-slate-400 mt-2">
+                    🔒 Сиздиң телефон номериңиз спам ушын қолланылмайды.
+                  </div>
+                </div>
+              </form>
+
+              <!-- Success Alert Box (hidden initially) -->
+              <div id="order-success" class="hidden mt-6 p-5 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-center space-y-2">
+                <div class="w-12 h-12 bg-emerald-500 text-white rounded-full flex items-center justify-center mx-auto text-2xl shadow-md">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="font-heading font-bold text-lg">Заявкаңыз қабылланды!</div>
+                <p class="text-xs text-emerald-800">
+                  Рахмет! Операторымыз 10 минут ишинде сизге қоңыраў етип, өлшеўши шебердиң келиў ўақытын анықлайды.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 text-sm py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-amber-500 flex items-center justify-center text-slate-950 font-extrabold font-heading text-lg">
+            C
+          </div>
+          <div>
+            <div class="text-white font-heading font-bold text-base">COMBO JALYUZI</div>
+            <div class="text-xs text-slate-500">Нөкис қаласы бойынша сапалы жалюзи фабрикасы</div>
+          </div>
+        </div>
+
+        <div class="text-xs text-slate-500">
+          © 2026 «Combo» Jalyuzileri. Барлық ҳуқықлар қорғалған.
+        </div>
+
+        <div class="flex items-center gap-4 text-slate-400 text-sm">
+          <a href="tel:+998997356006" class="hover:text-amber-400 transition flex items-center gap-1" title="Телефон">
+            <i class="fa-solid fa-phone text-amber-500"></i> +998 (99) 735-60-06
+          </a>
+          <a href="tel:+998907356006" class="hover:text-amber-400 transition flex items-center gap-1" title="Телефон">
+            <i class="fa-solid fa-phone text-amber-500"></i> +998 (90) 735-60-06
+          </a>
+          <span class="text-slate-700">|</span>
+          <a href="https://t.me/Jalyuzinukuscombon1" target="_blank" class="hover:text-amber-400 transition text-xs flex items-center gap-1" title="Telegram">
+            <i class="fa-brands fa-telegram text-sm text-amber-500"></i> @Jalyuzinukuscombon1
+          </a>
+          <a href="https://t.me/jalyuzinukus" target="_blank" class="hover:text-amber-400 transition text-xs flex items-center gap-1" title="Telegram">
+            <i class="fa-brands fa-telegram text-sm text-amber-500"></i> @jalyuzinukus
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= CATALOG DETAIL MODAL ================= -->
+  <div id="catalog-modal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="relative bg-white text-slate-900 rounded-3xl max-w-2xl w-full overflow-hidden shadow-2xl border border-slate-200 transform transition-all my-8 animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Close Button -->
+      <button onclick="closeCatalogModal()" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-slate-900/60 hover:bg-slate-900 text-white flex items-center justify-center transition backdrop-blur-sm">
+        <span class="material-symbols-outlined text-2xl">close</span>
+      </button>
+
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <!-- Modal Image -->
+        <div class="relative h-64 md:h-full bg-slate-900 overflow-hidden">
+          <img id="modal-img" src="" alt="Jalyuzi detail" class="w-full h-full object-cover">
+          <div class="absolute bottom-3 left-3 flex flex-wrap gap-1">
+            <span id="modal-origin" class="bg-slate-900/80 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm"></span>
+            <span id="modal-light" class="bg-amber-500 text-slate-950 text-xs font-bold px-2.5 py-1 rounded-md"></span>
+          </div>
+        </div>
+
+        <!-- Modal Content -->
+        <div class="p-6 sm:p-8 flex flex-col justify-between space-y-5">
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+              <span id="modal-artikul"></span>
+              <span class="text-amber-500 font-semibold"><i class="fa-solid fa-star"></i> 5.0 (Кепилликли)</span>
+            </div>
+            <h3 id="modal-title" class="font-heading font-extrabold text-2xl text-slate-900"></h3>
+            <p id="modal-desc" class="text-slate-600 text-sm mt-2 leading-relaxed"></p>
+
+            <!-- Specifications Table -->
+            <div class="mt-4 pt-4 border-t border-slate-100 space-y-2 text-xs text-slate-700">
+              <div class="flex justify-between">
+                <span class="text-slate-500">Мата материалы:</span>
+                <span id="modal-material" class="font-semibold text-slate-900"></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Рең палитрасы:</span>
+                <span id="modal-colors" class="font-semibold text-slate-900"></span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Кепиллик мүддети:</span>
+                <span class="font-semibold text-emerald-600">12 ай (Расмий)</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-slate-500">Өлшеў & Орнатыў:</span>
+                <span class="font-semibold text-amber-600">0 сум (Бийпул)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price & CTA -->
+          <div class="pt-4 border-t border-slate-100 space-y-3">
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-[11px] text-slate-400">1 кв.м баҳасы:</div>
+                <div id="modal-price" class="text-amber-600 font-heading font-extrabold text-2xl"></div>
+              </div>
+              <div class="text-right text-xs text-slate-400">
+                Нөкис бойынша жеткериў бийпул
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <button id="modal-order-btn" type="button" class="flex-1 py-3.5 px-4 rounded-xl font-heading font-bold text-slate-950 bg-amber-500 hover:bg-amber-400 shadow-lg shadow-amber-500/25 transition flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-lg">shopping_cart</span>
+                Усы модельге заказ бериў
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
